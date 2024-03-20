@@ -1,0 +1,30 @@
+h1.main-title {
+  color: #020256;
+  font-weight: normal;
+}
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+header {
+  background-color: aquamarine;
+  padding: 20px 0;
+  height: 100%;
+}
+
+p {
+  text-align: justify;
+}
+
+.left-img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.belaz, .antonov, .ship {
+  height: 500px;
+  width: 100%;
+}
+

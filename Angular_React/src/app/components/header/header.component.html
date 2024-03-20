@@ -1,0 +1,20 @@
+
+<header [attr.theme]="theme">
+  <div class="container">
+    <div class="logo-wrap" [ngClass]="color">
+      <div class="botton-img"><a class="btn btn-default" href="index.html" role="button"><img
+        src="././assets/PA.jpg"></a></div>
+    </div>
+    <nav class="nav">
+      <button id="belaz" class="btn btn-default" role="button" (click)="changeArticle('belaz')">{{text1 | uppercase}}</button>
+      <button id="antonov" class="btn btn-default" role="button" (click)="changeArticle('antonov')">{{text2 | uppercase}}</button>
+      <button id="ship" class="btn btn-default" role="button" (click)="changeArticle('ship')">{{text3 | uppercase}}</button>
+      <button class="btn btn-default" (click)="changeTheme()">{{ theme }}</button>
+      <div>
+        <mat-slide-toggle>Slide me!</mat-slide-toggle>
+      </div>
+    </nav>
+
+  </div>
+</header>
+

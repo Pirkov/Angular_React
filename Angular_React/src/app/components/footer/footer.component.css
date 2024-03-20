@@ -1,0 +1,10 @@
+footer {
+  padding: 20px 0;
+  background-color: #dfe4fe;
+  height: 100%;
+}
+
+footer[theme="Dark"] {
+  background-color: #3a3a60;
+  color: #fff;
+}

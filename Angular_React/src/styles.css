@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 35px;
+  color: blue;
+}
+
+section {
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+app-root {
+  display: grid;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+body[theme="Dark"] {
+  background-color: #393838;
+  color: #fff;
+}
